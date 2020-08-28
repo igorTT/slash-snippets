@@ -28,5 +28,8 @@
         "path": "./snippets/snippets-slash-rn-js.json"
       }
     ]
+  },
+  "engines": {
+    "vscode": "^1.48.2"
   }
 }
