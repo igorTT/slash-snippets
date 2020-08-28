@@ -1,15 +1,15 @@
 {
   "reactNativeSimpleComponent": {
-    "prefix": "/rnsc",
+    "prefix": "rnsc",
     "body": [
       "import React from 'react';",
       "import { View, StyleSheet } from 'react-native';",
       "",
       "const ${1:${TM_FILENAME_BASE}} = () => {",
-      "return (",
-      "  <View>",
+      "  return (",
+      "    <View>",
       "",
-      "  </View>",
+      "    </View>",
       ")};",
       "",
       "const styles = StyleSheet.create({});",
