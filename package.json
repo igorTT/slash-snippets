@@ -1,0 +1,11 @@
+{
+  "name": "slash-snippets",
+  "version": "0.0.1",
+  "description": "React, Redux, React Native snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Mikailov",
+  "license": "MIT"
+}
