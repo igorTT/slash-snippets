@@ -1,3 +1,9 @@
+## 0.0.3
+
+### Minor
+
+    - Add html boilerplate snippet
+
 ## 0.0.2
 
 ### Patch
