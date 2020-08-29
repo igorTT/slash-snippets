@@ -1,6 +1,6 @@
 {
   "name": "slash-snippets",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "displayName": "Slash [/] Snippets",
   "description": "React, Redux, React Native snippets",
   "author": "Igor Mikailov",
@@ -16,6 +16,7 @@
   "keywords": [
     "react",
     "react-native",
+    "javascript",
     "snippets"
   ],
   "categories": [
@@ -23,6 +24,10 @@
   ],
   "contributes": {
     "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-slash-rn-js.json"
+      },
       {
         "language": "javascriptreact",
         "path": "./snippets/snippets-slash-rn-js.json"

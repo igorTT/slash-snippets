@@ -1,3 +1,18 @@
+## 0.0.5
+
+### Patch
+
+### Minor
+
+    - Fix contributes
+    - Add default cursor position to rnsc snippet
+
+## 0.0.4
+
+### Patch
+
+    - Fix rnsc snippet
+
 ## 0.0.3
 
 ### Minor
