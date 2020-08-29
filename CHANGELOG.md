@@ -1,3 +1,13 @@
+## 0.0.6
+
+### Minor
+
+### Patch
+
+    - Add rn style snippet
+    - Add documentation
+    - Add Text to rnsc
+
 ## 0.0.5
 
 ### Patch

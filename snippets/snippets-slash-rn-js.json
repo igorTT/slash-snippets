@@ -1,15 +1,14 @@
 {
   "reactNativeSimpleComponent": {
     "prefix": "rnsc",
-    "scope": "javascript, javascriptreact",
     "body": [
       "import React from 'react';",
-      "import { View, StyleSheet } from 'react-native';",
+      "import { View, Text, StyleSheet } from 'react-native';",
       "",
       "const ${1:${TM_FILENAME_BASE}} = () => {",
       "  return (",
       "    <View>",
-      "      $0",
+      "      <Text>${0:${TM_FILENAME_BASE}}</Text>",
       "    </View>",
       "  );",
       "};",
@@ -20,5 +19,10 @@
       ""
     ],
     "description": "React Native Simple Component Export"
+  },
+  "style={styles.}": {
+    "prefix": "sty",
+    "body": ["style={styles.${1}}"],
+    "description": "style props"
   }
 }
