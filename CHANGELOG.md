@@ -1,3 +1,9 @@
+## 0.0.7
+
+### Minor
+
+    - Add react functional component snippet
+
 ## 0.0.6
 
 ### Minor

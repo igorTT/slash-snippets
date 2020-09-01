@@ -20,6 +20,24 @@
     ],
     "description": "React Native Simple Component Export"
   },
+  "reactFunctionalComponent": {
+    "prefix": "rsc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <div>",
+      "      <h2>${0:${TM_FILENAME_BASE}}</h2>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "React Functional Component Export"
+  },
   "style={styles.}": {
     "prefix": "sty",
     "body": ["style={styles.${1}}"],
