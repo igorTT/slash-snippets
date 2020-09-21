@@ -1,3 +1,12 @@
+## 0.0.8
+
+### Minor
+
+### Patch
+
+    - Add rnc snippet
+    - Fix rnsc description
+
 ## 0.0.7
 
 ### Minor

@@ -30,6 +30,23 @@ const styles = StyleSheet.create({});
 export default $1;
 ```
 
+### `rnc`
+
+```javascript
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const $1 = () => {
+  return (
+    <View>
+      <Text>$0</Text>
+    </View>
+  );
+};
+
+export default $1;
+```
+
 ## React Components
 
 ### `rsc`
