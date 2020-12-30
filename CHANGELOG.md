@@ -1,3 +1,12 @@
+## 0.0.9
+
+### Minor
+
+### Patch
+
+    - Add muirsc snippet
+    - Add muicl style snippet
+
 ## 0.0.8
 
 ### Minor

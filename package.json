@@ -1,8 +1,8 @@
 {
   "name": "slash-snippets",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "displayName": "Slash [/] Snippets",
-  "description": "React, Redux, React Native snippets",
+  "description": "React, Redux, React Native, Material UI + React snippets",
   "author": "Igor Mikailov",
   "license": "MIT",
   "repository": {
@@ -17,7 +17,8 @@
     "react",
     "react-native",
     "javascript",
-    "snippets"
+    "snippets",
+    "material-ui"
   ],
   "categories": [
     "Snippets"
