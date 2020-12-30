@@ -57,6 +57,38 @@
     ],
     "description": "React Functional Component Export"
   },
+  "muiReactFunctionalComponent": {
+    "prefix": "muirsc",
+    "body": [
+      "import React from 'react';",
+      "import { makeStyles } from '@material-ui/core/styles';",
+      "import { Typography, Box } from '@material-ui/core';",
+      "",
+      "const useStyles = makeStyles(() => ({",
+      "   root: {},",
+      "}))",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = (props) => {",
+      "  const classes = useStyles()",
+      "  const className = `${classes.root} ${props.className || ''}`",
+      "",
+      "  return (",
+      "    <Box className={className}>",
+      "      <Typography>${0:${TM_FILENAME_BASE}}</Typography>",
+      "    </Box>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Material-UI React Functional Component"
+  },
+  "className={classes.}": {
+    "prefix": "muicl",
+    "body": ["className={classes.${1}}"],
+    "description": "class name props"
+  },
   "style={styles.}": {
     "prefix": "sty",
     "body": ["style={styles.${1}}"],

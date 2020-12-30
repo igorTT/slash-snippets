@@ -5,9 +5,10 @@ It contains snippets for React, Redux, React Native and ofcourse HTML boilerplat
 
 ## StyleSheet
 
-|  Prefix | Method                |
-| ------: | --------------------- |
-| `sty->` | `style={styles.${1}}` |
+| Prefix    | Method                     |
+| --------- | -------------------------- |
+| `sty->`   | `style={styles.${1}}`      |
+| `muicl->` | `className={classes.${1}}` |
 
 ## React Native Components
 
@@ -59,6 +60,33 @@ const $1 = () => {
     <div>
       <h2>$0</h2>
     </div>
+  );
+};
+
+export default $1;
+```
+
+## Material-UI React
+
+### `muirsc`
+
+```javascript
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import { Typography, Box } from '@material-ui/core';
+
+const useStyles = makeStyles(() => ({
+  root: {},
+}));
+
+const $1 = (props) => {
+  const classes = useStyles();
+  const className = `${classes.root} ${props.className || ''}`;
+
+  return (
+    <Box className={className}>
+      <Typography>$0</Typography>
+    </Box>
   );
 };
 
