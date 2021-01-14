@@ -1,8 +1,12 @@
-## 0.0.9
+## 0.0.10
 
 ### Minor
 
-### Patch
+    - Add console.log snippet
+
+## 0.0.9
+
+### Minor
 
     - Add muirsc snippet
     - Add muicl style snippet

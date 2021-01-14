@@ -92,3 +92,11 @@ const $1 = (props) => {
 
 export default $1;
 ```
+
+## console.log
+
+### `clo`
+
+```javascript
+console.log('[MY] $1 >>>', $1);
+```

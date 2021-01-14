@@ -93,5 +93,10 @@
     "prefix": "sty",
     "body": ["style={styles.${1}}"],
     "description": "style props"
+  },
+  "console.log('[MY] object >>>', object)": {
+    "prefix": "clo",
+    "body": ["console.log('[MY] ${1} >>>', ${1})"],
+    "description": "my own console.log"
   }
 }
