@@ -1,6 +1,6 @@
 {
   "name": "slash-snippets",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "displayName": "Slash [/] Snippets",
   "description": "React, Redux, React Native, Material UI + React snippets",
   "author": "Igor Mikailov",
@@ -23,6 +23,9 @@
   "categories": [
     "Snippets"
   ],
+  "scripts": {
+    "package": "vsce package"
+  },
   "contributes": {
     "snippets": [
       {
@@ -41,5 +44,8 @@
   },
   "engines": {
     "vscode": "^1.48.2"
+  },
+  "devDependencies": {
+    "vsce": "^1.100.1"
   }
 }
