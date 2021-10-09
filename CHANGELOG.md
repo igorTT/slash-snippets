@@ -1,3 +1,11 @@
+## 0.1.0
+
+    - Switched to semver
+    - Added a 'gotcha' console.log
+    - Added `muirscpropt` snippet to work with PropTypes
+    - Fixed code style mistakes in `muirsc` and `!!` snippets
+    - Replaced default `className` to `rootClass`
+
 ## 0.0.10
 
 ### Minor
