@@ -1,3 +1,16 @@
+## 0.2.0
+
+### Minor
+
+    - Added `muirscpropt-container` snippet to work with container components
+    - Added `muirscpropt-presentation` snippet to work with presentation components
+    - Added `muirscpropt-is` patch `muirscpropt`
+    - Add styles.js snippet
+
+### Patch
+
+    - Added a gap after `className` to prevent disappearing braces bug
+
 ## 0.1.0
 
     - Switched to semver
