@@ -64,16 +64,14 @@
       "import { makeStyles } from '@material-ui/core/styles';",
       "import { Typography, Box } from '@material-ui/core';",
       "",
-      "const useStyles = makeStyles(() => ({",
-      "   root: {},",
-      "}))",
+      "const useStyles = makeStyles({});",
       "",
-      "const ${1:${TM_FILENAME_BASE}} = (props) => {",
-      "  const classes = useStyles()",
-      "  const className = `${classes.root} ${props.className || ''}`",
+      "const ${1:${TM_FILENAME_BASE}} = ({ className = '' }) => {",
+      "  const classes = useStyles();",
+      "  const rootClass = `${classes.root} ${className }`;",
       "",
       "  return (",
-      "    <Box className={className}>",
+      "    <Box className={rootClass}>",
       "      <Typography>${0:${TM_FILENAME_BASE}}</Typography>",
       "    </Box>",
       "  );",
@@ -83,6 +81,123 @@
       ""
     ],
     "description": "Material-UI React Functional Component"
+  },
+  "muiReactFuncComponentPropTypes": {
+    "prefix": "muirscpropt",
+    "body": [
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
+      "import { makeStyles } from '@material-ui/core/styles';",
+      "import { Typography, Box } from '@material-ui/core';",
+      "",
+      "const useStyles = makeStyles({});",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({ className = '' }) => {",
+      "  const classes = useStyles();",
+      "  const rootClass = `${classes.root} ${className }`;",
+      "",
+      "  return (",
+      "    <Box className={rootClass}>",
+      "      <Typography>${0:${TM_FILENAME_BASE}}</Typography>",
+      "    </Box>",
+      "  );",
+      "};",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "  className: PropTypes.string,",
+      "};",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Material-UI React Functional Container Component with prop types"
+  },
+  "muiReactFuncComponentPropTypesImportStyles": {
+    "prefix": "muirscpropt-is",
+    "body": [
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
+      "import { Typography, Box } from '@material-ui/core';",
+      "",
+      "import { useStyles } from './styles.js';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({ className = '' }) => {",
+      "  const classes = useStyles();",
+      "  const rootClass = `${classes.root} ${className }`;",
+      "",
+      "  return (",
+      "    <Box className={rootClass}>",
+      "      <Typography>${0:${TM_FILENAME_BASE}}</Typography>",
+      "    </Box>",
+      "  );",
+      "};",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "  className: PropTypes.string,",
+      "};",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Material-UI React Functional Component with prop types and import styles"
+  },
+  "muiReactFuncContainerComponentPropTypes": {
+    "prefix": "muirscpropt-container",
+    "body": [
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
+      "",
+      "import ${1:${TM_FILENAME_BASE}}View from './${1:${TM_FILENAME_BASE}}View';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({ className = '' }) => {",
+      "  return <${1:${TM_FILENAME_BASE}}View className={className} />;",
+      "};",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "  className: PropTypes.string,",
+      "};",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Material-UI React Functional Container Component with prop types"
+  },
+  "muiReactPresentationFuncComponentPropTypes": {
+    "prefix": "muirscpropt-presentation",
+    "body": [
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
+      "import { Typography, Box } from '@material-ui/core';",
+      "",
+      "import { useStyles } from './styles';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}}View = ({ className = '' }) => {",
+      "  const classes = useStyles();",
+      "  const rootClass = `${classes.root} ${className }`;",
+      "",
+      "  return (",
+      "    <Box className={rootClass}>",
+      "      <Typography>${0:${TM_FILENAME_BASE}}</Typography>",
+      "    </Box>",
+      "  );",
+      "};",
+      "",
+      "${1:${TM_FILENAME_BASE}}View.propTypes = {",
+      "  className: PropTypes.string,",
+      "};",
+      "export default ${1:${TM_FILENAME_BASE}}View;",
+      ""
+    ],
+    "description": "Material-UI React Functional Presentational Component with prop types"
+  },
+  "muiStylesHook": {
+    "prefix": "muistylehook",
+    "body": [
+      "import { makeStyles } from '@material-ui/core/styles';",
+      "",
+      "export const useStyles = makeStyles({",
+      "  root: {},",
+      "});",
+      ""
+    ],
+    "description": "Material-UI style hook"
   },
   "className={classes.}": {
     "prefix": "muicl",
@@ -98,5 +213,10 @@
     "prefix": "clo",
     "body": ["console.log('[MY] ${1} >>>', ${1})"],
     "description": "my own console.log"
+  },
+  "console.log('gotcha!')": {
+    "prefix": "gotcha",
+    "body": ["console.log('gotcha!${1}')"],
+    "description": "gotcha!"
   }
 }
