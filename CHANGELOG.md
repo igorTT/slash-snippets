@@ -1,3 +1,9 @@
+## 0.2.1
+
+### Patch
+
+    - Fix a presentation component postfix
+
 ## 0.2.0
 
 ### Minor

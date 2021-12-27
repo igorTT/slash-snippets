@@ -171,7 +171,7 @@ import { Typography, Box } from '@material-ui/core';
 
 import { useStyles } from './styles';
 
-const $1View = ({ className = '' }) => {
+const $1 = ({ className = '' }) => {
   const classes = useStyles();
   const rootClass = `${classes.root} ${className}`;
 
@@ -182,10 +182,10 @@ const $1View = ({ className = '' }) => {
   );
 };
 
-$1View.propTypes = {
+$1.propTypes = {
   className: PropTypes.string,
 };
-export default $1View;
+export default $1;
 ```
 
 ### `muistylehook`

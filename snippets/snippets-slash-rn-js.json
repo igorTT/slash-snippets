@@ -168,7 +168,7 @@
       "",
       "import { useStyles } from './styles';",
       "",
-      "const ${1:${TM_FILENAME_BASE}}View = ({ className = '' }) => {",
+      "const ${1:${TM_FILENAME_BASE}} = ({ className = '' }) => {",
       "  const classes = useStyles();",
       "  const rootClass = `${classes.root} ${className }`;",
       "",
@@ -179,10 +179,10 @@
       "  );",
       "};",
       "",
-      "${1:${TM_FILENAME_BASE}}View.propTypes = {",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
       "  className: PropTypes.string,",
       "};",
-      "export default ${1:${TM_FILENAME_BASE}}View;",
+      "export default ${1:${TM_FILENAME_BASE}};",
       ""
     ],
     "description": "Material-UI React Functional Presentational Component with prop types"
