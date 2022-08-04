@@ -66,6 +66,43 @@ const $1 = () => {
 export default $1;
 ```
 
+### React Typescript Components
+
+### `rfc-ts`
+
+```typescript
+import React from 'react';
+
+const ${1:${TM_FILENAME_BASE}} = () => {
+  return <div>${0:${TM_FILENAME_BASE}}</div>;
+};
+
+export default ${1:${TM_FILENAME_BASE}};
+
+```
+
+### `rfc-p-ts`
+
+```typescript
+import React from 'react';
+      
+import { ${1:${TM_FILENAME_BASE}}Props } from './types';
+
+const ${1:${TM_FILENAME_BASE}} = ({}: ${1:${TM_FILENAME_BASE}}Props) => {
+  return <div>${0:${TM_FILENAME_BASE}}</div>;
+};
+      
+export default ${1:${TM_FILENAME_BASE}};    
+
+```
+
+### `r-iprops`
+```typescript
+export interface ${1}Props {${2}}
+
+```
+
+
 ## Material-UI React
 
 ### `muirsc`
@@ -125,7 +162,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Typography, Box } from '@material-ui/core';
 
-import { useStyles } from './styles.js';
+import { useStyles } from './styles';
 
 const $1 = ({ className = '' }) => {
   const classes = useStyles();

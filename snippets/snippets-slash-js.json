@@ -1,0 +1,16 @@
+{
+  "console.log('[MY] object >>>', object)": {
+    "prefix": "clo",
+    "body": [
+      "console.log('[MY] ${1} >>>', ${1})"
+    ],
+    "description": "my own console.log"
+  },
+  "console.log('gotcha!')": {
+    "prefix": "gotcha",
+    "body": [
+      "console.log('gotcha!${1}')"
+    ],
+    "description": "gotcha!"
+  }
+}

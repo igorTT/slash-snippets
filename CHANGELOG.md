@@ -1,3 +1,16 @@
+## 0.3.0
+
+### Minor
+    - Split react, material UI (ver.4), react native, native javascript into separate files
+    - Added typescript support
+    - Added react-typescript support
+    - Added 'r-iprops' snippet to generate ReactProps interface
+    - Added 'rfc-ts' snippet to generate React functional component for typescript
+    - Added 'rfc-p-ts' snippet to generate React functional component with props for typescript
+### Patch
+
+    - Fix extension visibility for styles' import
+
 ## 0.2.1
 
 ### Patch

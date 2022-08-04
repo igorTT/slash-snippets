@@ -1,0 +1,9 @@
+{
+  "React props interface": {
+    "prefix": "r-iprops",
+    "body": [
+      "export interface ${1}Props {${2}}"
+    ],
+    "description": "React props interface"
+  }
+}

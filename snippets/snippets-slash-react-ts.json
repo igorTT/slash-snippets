@@ -1,0 +1,31 @@
+{
+  "typescriptFC": {
+    "prefix": "rfc-ts",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return <div>${0:${TM_FILENAME_BASE}}</div>;",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Typescript React Function Component"
+  },
+  "typescriptFCwProps": {
+    "prefix": "rfc-p-ts",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import { ${1:${TM_FILENAME_BASE}}Props } from './types';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({}: ${1:${TM_FILENAME_BASE}}Props) => {",
+      "  return <div>${0:${TM_FILENAME_BASE}}</div>;",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ]
+  }
+}

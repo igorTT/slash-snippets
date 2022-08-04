@@ -1,6 +1,6 @@
 {
   "name": "slash-snippets",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "displayName": "Slash [/] Snippets",
   "description": "React, Redux, React Native, Material UI + React snippets",
   "author": "Igor Mikailov",
@@ -30,15 +30,31 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets-slash-rn-js.json"
+        "path": "./snippets/snippets-slash-js.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets-slash-rn-js.json"
+        "path": "./snippets/snippets-slash-rn.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets-slash-react.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets-slash-material-ui.json"
       },
       {
         "language": "html",
         "path": "./snippets/snippets-slash-html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-slash-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-slash-react-ts.json"
       }
     ]
   },
